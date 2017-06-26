@@ -14,6 +14,7 @@
 		8624689B1F019ED400FE5A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862468991F019ED400FE5A49 /* LaunchScreen.storyboard */; };
 		862468A31F019F0200FE5A49 /* TeamMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862468A21F019F0200FE5A49 /* TeamMemberCell.swift */; };
 		862468A51F019FF500FE5A49 /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862468A41F019FF500FE5A49 /* TeamMember.swift */; };
+		862468A91F01A61C00FE5A49 /* TeamMemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862468A81F01A61C00FE5A49 /* TeamMemberCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8624689C1F019ED400FE5A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862468A21F019F0200FE5A49 /* TeamMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberCell.swift; sourceTree = "<group>"; };
 		862468A41F019FF500FE5A49 /* TeamMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		862468A81F01A61C00FE5A49 /* TeamMemberCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamMemberCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8624689C1F019ED400FE5A49 /* Info.plist */,
 				862468A21F019F0200FE5A49 /* TeamMemberCell.swift */,
 				862468A41F019FF500FE5A49 /* TeamMember.swift */,
+				862468A81F01A61C00FE5A49 /* TeamMemberCell.xib */,
 			);
 			path = Constraints;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				8624689B1F019ED400FE5A49 /* LaunchScreen.storyboard in Resources */,
 				862468981F019ED400FE5A49 /* Assets.xcassets in Resources */,
+				862468A91F01A61C00FE5A49 /* TeamMemberCell.xib in Resources */,
 				862468961F019ED400FE5A49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +311,7 @@
 				862468A11F019ED400FE5A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

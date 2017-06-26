@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: bottomLayoutGuide.topAnchor).isActive = true
         tableView.dataSource = self
-        tableView.register(TeamMemberCell.self, forCellReuseIdentifier: "team")
+        tableView.register(UINib(nibName: "TeamMemberCell", bundle: nil), forCellReuseIdentifier: "team")
         tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableViewAutomaticDimension
     }
