@@ -14,6 +14,7 @@
 		8624689B1F019ED400FE5A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862468991F019ED400FE5A49 /* LaunchScreen.storyboard */; };
 		862468A31F019F0200FE5A49 /* TeamMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862468A21F019F0200FE5A49 /* TeamMemberCell.swift */; };
 		862468A51F019FF500FE5A49 /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862468A41F019FF500FE5A49 /* TeamMember.swift */; };
+		862468A71F01A55400FE5A49 /* UIView+NoConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862468A61F01A55400FE5A49 /* UIView+NoConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8624689C1F019ED400FE5A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862468A21F019F0200FE5A49 /* TeamMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberCell.swift; sourceTree = "<group>"; };
 		862468A41F019FF500FE5A49 /* TeamMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		862468A61F01A55400FE5A49 /* UIView+NoConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NoConstraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8624689C1F019ED400FE5A49 /* Info.plist */,
 				862468A21F019F0200FE5A49 /* TeamMemberCell.swift */,
 				862468A41F019FF500FE5A49 /* TeamMember.swift */,
+				862468A61F01A55400FE5A49 /* UIView+NoConstraints.swift */,
 			);
 			path = Constraints;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862468A71F01A55400FE5A49 /* UIView+NoConstraints.swift in Sources */,
 				862468931F019ED400FE5A49 /* ViewController.swift in Sources */,
 				862468A31F019F0200FE5A49 /* TeamMemberCell.swift in Sources */,
 				862468A51F019FF500FE5A49 /* TeamMember.swift in Sources */,
