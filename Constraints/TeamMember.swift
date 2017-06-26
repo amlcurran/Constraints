@@ -10,6 +10,7 @@ import UIKit
 
 struct TeamMember {
     let name: String
+    let imageURL: URL
     let age: Int
     let heightCm: Int
     let hairColor: UIColor
