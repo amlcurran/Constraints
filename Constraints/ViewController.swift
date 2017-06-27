@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource {
     
     let tableView = UITableView()
-    let teamMembers = [TeamMember(name: "Alex", imageURL: URL(string: "https://github.com/amlcurran.png")!, age: 26, heightCm: 167, hairColor: .black, favouriteDessert: "Trifle")]
+    let teamMembers = [TeamMember(name: "Alex", imageURL: URL(string: "https://github.com/amlcurran.png")!, age: 26, heightCm: 167, hairColor: .black, favouriteDessert: "Trifle"),
+        TeamMember(name: "Eike", imageURL: URL(string: "https://github.com/eikebartels.png")!, age: 28, heightCm: 180, hairColor: .yellow, favouriteDessert: "Eis")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
